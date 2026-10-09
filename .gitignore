@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / model weights (large binaries — not tracked in git)
+*.raw
+*.nii
+*.nii.gz
+*.pth
+*.pt
+*.ckpt
+data/
+output/
+
+# SLURM logs
+*.out
+*.err
+nohup.out
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# One-off / debug scripts — not part of the public release
+nmar_compare_check.py
+slurm/run_metrics_17210742.sh

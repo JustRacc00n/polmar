@@ -1,0 +1,9 @@
+torch>=2.0
+numpy
+tqdm
+scikit-image
+opencv-python
+nibabel
+pandas
+matplotlib
+scipy
