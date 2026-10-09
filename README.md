@@ -2,8 +2,6 @@
 
 **PolMAR** is a two-stage image-domain framework for metal artifact reduction (MAR) in reconstructed CT images. It requires no sinogram access and operates entirely on reconstructed slices.
 
-> Paper: *PolMAR: A Two-Stage Metal Artifact Reduction Method with Polar-Domain Correction for Computed Tomography* — WACV 2027
-
 ## Example result
 
 ![PolMAR pipeline result](docs/example_result.png)
@@ -150,7 +148,7 @@ See `slurm/run_real_inference.sh` for the full SLURM pipeline (CircNet → Refin
 
 ## Statistical analysis
 
-Pre-defined paired comparisons from the WACV paper:
+Pre-defined paired comparisons:
 
 ```bash
 cd stats/
